@@ -1,0 +1,40 @@
+header{
+    text-align: center;
+    grid-column: 1/4;
+
+
+}
+
+body{
+    background-image:url(./img/italien-flagge-hd.webp) ;
+    background-repeat:repeat-y;
+    background-size:contain;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0,5fr 2fr 2fr; 
+
+    
+}
+
+#ingredienser{
+    text-align: center;
+    grid-column: 1/2;
+    color: white;
+}
+
+#pancetta{
+    width: 300px;
+    height: 300px;
+
+}
+
+#bildmat{
+    grid-row: 3/4;
+    grid-column: 1/2;
+    text-align: center;
+}
+
+
+
+
